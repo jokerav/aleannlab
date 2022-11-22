@@ -5,6 +5,7 @@
   background: #EFF0F5;border-radius: 8px;
   margin-bottom: 8px;
   font-family: Proxima Nova;
+  font-weight: 400;
   @media screen and (min-width:768px) {
     width: 1400px;
     padding: 24px 16px 24px 16px;
@@ -28,23 +29,32 @@ display: block;
   display: block;
 }
 .timeAgo{
-
   font-weight: 300;
   font-size: 14px;
   line-height: 1.705;
   letter-spacing: 0.21px;
-
-
 }
 .starsContainer{
 display: flex;
 }
 .title{
   color: #3A4562;
-font-weight: 400;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: -0.56px;
+}
+.subTitle,
+.adress{
+  font-size: 16px;
+  line-height: 1,5625;
+  letter-spacing: 0.23619px;
+  color: #878D9D;
+}
+.adressContainer{
+display: flex;
+}
+.mapStamp{
+  margin-right: 11px;
 }
 
 

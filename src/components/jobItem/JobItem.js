@@ -15,8 +15,7 @@ const JobItem = ({ job })=> {
   const difference = differenceInMonths(new Date(), new Date(createdAt));
   return (
       <li className='card'>
-
-      <img src={pictures[0]} className='picture' alt="Job title"></img>
+      <picture><img src={pictures[0]} className='picture' alt="Job title"></img></picture>
         <div className='cardContainer'>
       <div className='starsContainer'>
         <Rating
@@ -30,10 +29,12 @@ const JobItem = ({ job })=> {
       <BookMark/>
     <NavLink className='link' to={`/job/${id}`}>
       <p className='title'>{title}</p>
-      <p>{createdAt}</p>
-      <p>{address}</p>
     </NavLink>
-      <MapStamp height={13}/>
+          <p className='subTitle'>Department name • Allgemeines Krankenhaus der Stadt Wien - AKH</p>
+       <div className='adressContainer'>
+      <MapStamp className='mapStamp' height={13}/>
+          <p className='adress'>{address}</p>
+       </div>
         </div>
   </li>)
 }

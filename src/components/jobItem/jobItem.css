@@ -1,10 +1,12 @@
 .card {
-  display: block;
+  display: flex;
   width: 396px;
   padding: 17px;
   background: #EFF0F5;
   border-radius: 8px;
   margin-bottom: 8px;
+  font-family: Proxima Nova;
+  font-weight: 400;
 }
 @media screen and (min-width: 768px) {
   .card {
@@ -12,6 +14,10 @@
     padding: 24px 16px 24px 16px;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1215686275), 0px 2px 1px -1px rgba(0, 0, 0, 0.0392156863);
   }
+}
+
+cardContainer {
+  display: block;
 }
 
 .picture {
@@ -27,8 +33,11 @@
   }
 }
 
+.link {
+  display: block;
+}
+
 .timeAgo {
-  font-family: Proxima Nova;
   font-weight: 300;
   font-size: 14px;
   line-height: 1.705;
@@ -37,6 +46,29 @@
 
 .starsContainer {
   display: flex;
+}
+
+.title {
+  color: #3A4562;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.56px;
+}
+
+.subTitle,
+.adress {
+  font-size: 16px;
+  line-height: 1, 5625;
+  letter-spacing: 0.23619px;
+  color: #878D9D;
+}
+
+.adressContainer {
+  display: flex;
+}
+
+.mapStamp {
+  margin-right: 11px;
 }
 
 /*# sourceMappingURL=jobItem.css.map */
