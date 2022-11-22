@@ -1,0 +1,42 @@
+.card {
+  display: block;
+  width: 396px;
+  padding: 17px;
+  background: #EFF0F5;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  .card {
+    width: 1400px;
+    padding: 24px 16px 24px 16px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1215686275), 0px 2px 1px -1px rgba(0, 0, 0, 0.0392156863);
+  }
+}
+
+.picture {
+  height: 66px;
+  width: 66px;
+  border-radius: 50%;
+  margin-right: 19px;
+}
+@media screen and (min-width: 768px) {
+  .picture {
+    height: 85px;
+    width: 85px;
+  }
+}
+
+.timeAgo {
+  font-family: Proxima Nova;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.705;
+  letter-spacing: 0.21px;
+}
+
+.starsContainer {
+  display: flex;
+}
+
+/*# sourceMappingURL=jobItem.css.map */
