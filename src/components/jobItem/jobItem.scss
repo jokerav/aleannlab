@@ -1,13 +1,14 @@
 .card{
   display: flex;
-  width: 396px;
-  padding: 17px;
-  background: #EFF0F5;border-radius: 8px;
+  padding: 16px 17px 27px 16px;
+  //width: 396px;
+  background: #EFF0F5;
+  border-radius: 8px;
   margin-bottom: 8px;
-  font-family: Proxima Nova;
+  font: Proxima Nova;
   font-weight: 400;
   @media screen and (min-width:768px) {
-    width: 1400px;
+    width: 1200px;
     padding: 24px 16px 24px 16px;
     box-shadow: 0px 1px 3px 0px #0000001F, 0px 2px 1px -1px #0000000A;
   }
@@ -36,6 +37,10 @@ display: block;
 }
 .starsContainer{
 display: flex;
+  justify-content: space-between;
+}
+.bookMark{
+  display: none;
 }
 .title{
   color: #3A4562;

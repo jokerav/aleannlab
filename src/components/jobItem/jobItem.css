@@ -1,16 +1,15 @@
 .card {
   display: flex;
-  width: 396px;
-  padding: 17px;
+  padding: 16px 17px 27px 16px;
   background: #EFF0F5;
   border-radius: 8px;
   margin-bottom: 8px;
-  font-family: Proxima Nova;
+  font: Proxima Nova;
   font-weight: 400;
 }
 @media screen and (min-width: 768px) {
   .card {
-    width: 1400px;
+    width: 1200px;
     padding: 24px 16px 24px 16px;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1215686275), 0px 2px 1px -1px rgba(0, 0, 0, 0.0392156863);
   }
@@ -46,6 +45,11 @@ cardContainer {
 
 .starsContainer {
   display: flex;
+  justify-content: space-between;
+}
+
+.bookMark {
+  display: none;
 }
 
 .title {

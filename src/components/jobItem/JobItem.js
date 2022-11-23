@@ -26,7 +26,7 @@ const JobItem = ({ job })=> {
         />
         <p className='timeAgo'>Posted {difference} month ago</p>
       </div>
-      <BookMark/>
+      <BookMark className='bookMark'/>
     <NavLink className='link' to={`/job/${id}`}>
       <p className='title'>{title}</p>
     </NavLink>
