@@ -12,7 +12,7 @@ return(
   <ul className='jobList'>
     {data.length > 0 && data.map(job => (
         <JobItem
-          key={job.id}
+            key={job.id}
           job={job}
         />
       ))}

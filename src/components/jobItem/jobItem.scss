@@ -1,65 +1,109 @@
-.card{
+.card {
   display: flex;
   padding: 16px 17px 27px 16px;
-  //width: 396px;
   background: #EFF0F5;
   border-radius: 8px;
   margin-bottom: 8px;
   font: Proxima Nova;
   font-weight: 400;
-  @media screen and (min-width:768px) {
-    width: 1200px;
+  @media screen and (min-width: 768px) {
+    position: relative;
     padding: 24px 16px 24px 16px;
     box-shadow: 0px 1px 3px 0px #0000001F, 0px 2px 1px -1px #0000000A;
   }
 }
-cardContainer{
-display: block;
+
+.cardContainer {
+  @media screen and (min-width: 768px) {
+    width: 960px;
+  }
+
 }
-.picture{
+
+.picture {
   height: 66px;
   width: 66px;
   border-radius: 50%;
   margin-right: 19px;
-  @media screen and (min-width:768px) {
+  @media screen and (min-width: 768px) {
     height: 85px;
     width: 85px;
   }
 }
-.link{
-  display: block;
-}
-.timeAgo{
+
+.timeAgo {
   font-weight: 300;
   font-size: 14px;
   line-height: 1.705;
   letter-spacing: 0.21px;
 }
-.starsContainer{
-display: flex;
+
+.starsContainerMobile {
+  display: flex;
   justify-content: space-between;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
-.bookMark{
-  display: none;
+
+.starsContainerDesctop {
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
-.title{
+
+.timeAgoDesctop {
+  align-self: flex-end;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+.stars {
+  @media screen and (min-width: 768px) {
+    margin-right: 32px;
+  }
+}
+
+.bookMark {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    right: 24px;
+  }
+}
+
+.title {
   color: #3A4562;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: -0.56px;
 }
+
 .subTitle,
-.adress{
+.adress {
   font-size: 16px;
-  line-height: 1,5625;
+  line-height: 1.5625;
   letter-spacing: 0.23619px;
   color: #878D9D;
 }
-.adressContainer{
-display: flex;
+
+.subTitle {
+  margin-bottom: 7px;
 }
-.mapStamp{
-  margin-right: 11px;
+
+.adressContainer {
+  display: flex;
+}
+
+.mapStamp {
+  margin-right: 8px;
+  fill: #D8D8D8;
+  height: 18px;
 }
 
 

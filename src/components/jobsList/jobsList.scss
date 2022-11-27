@@ -1,6 +1,7 @@
 .jobList{
-  //display: block;
-  list-style: none;
-  width: 100%;
+    list-style: none;
+   width: 396px;
+  @media screen and (min-width:768px) {
+    width: 1400px;
+  }
 }
-
