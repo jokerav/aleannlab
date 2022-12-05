@@ -8,7 +8,7 @@ const JobsList = ()=>{
   } = useGetDataQuery();
   // console.log(data);
 return(
-
+<div className='container'>
   <ul className='jobList'>
     {data.length > 0 && data.map(job => (
         <JobItem
@@ -17,6 +17,7 @@ return(
         />
       ))}
   </ul>
+</div>
 
 )}
 export default JobsList;

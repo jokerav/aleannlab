@@ -1,3 +1,9 @@
+.container{
+  padding: 9px;
+  @media screen and (min-width:768px) {
+    padding: 29px 260px;
+  }
+}
 .jobList{
     list-style: none;
    width: 396px;

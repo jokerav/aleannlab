@@ -1,0 +1,126 @@
+.containerDetails {
+  padding-top: 24px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media screen and (min-width: 768px) {
+  .containerDetails {
+    padding-top: 56px;
+    padding-left: 347px;
+    padding-right: 315px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.jobDetails {
+  font-family: Proxima Nova;
+  color: #3A4562;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.21;
+  letter-spacing: 0.41px;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.lineMobile {
+  margin-bottom: 24px;
+  color: #3A4562;
+  height: 1px;
+  opacity: 0.13;
+}
+@media screen and (min-width: 768px) {
+  .lineMobile {
+    display: none;
+  }
+}
+
+.lineDesctop {
+  margin-bottom: 39px;
+}
+@media screen and (max-width: 767px) {
+  .lineDesctop {
+    display: none;
+  }
+}
+
+.shareContainer {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .shareContainer {
+    margin-bottom: 32px;
+  }
+}
+
+.bookMarkDetail {
+  margin-right: 16px;
+}
+@media screen and (max-width: 767px) {
+  .bookMarkDetail {
+    display: none;
+  }
+}
+
+.star {
+  height: 21px;
+  width: 20px;
+  stroke: #3A4562;
+  stroke-width: 2px;
+  margin-right: 12px;
+}
+@media screen and (min-width: 768px) {
+  .star {
+    display: none;
+  }
+}
+
+.share {
+  margin-right: 10px;
+  font-family: Proxima Nova;
+  color: rgba(56, 65, 93, 0.82);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4375;
+  letter-spacing: -0.5px;
+}
+@media screen and (min-width: 768px) {
+  .share {
+    margin-right: 15px;
+    font-family: "Roboto";
+    color: #3A4562;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+
+.saveToMyList {
+  font-family: Proxima Nova;
+  color: rgba(56, 65, 93, 0.82);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4375;
+  letter-spacing: -0.5px;
+  margin-right: 36px;
+}
+@media screen and (min-width: 768px) {
+  .saveToMyList {
+    margin-right: 31px;
+    font-family: Roboto;
+    color: #3A4562;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: -0.5625px;
+    font-variation-settings: "wdth" 100;
+  }
+}
+
+/*# sourceMappingURL=jobDetails.css.map */
