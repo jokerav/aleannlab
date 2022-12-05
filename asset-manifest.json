@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/aleannlab/static/css/main.85053a60.css",
-    "main.js": "/aleannlab/static/js/main.c4fd5a72.js",
+    "main.css": "/aleannlab/static/css/main.f699ade9.css",
+    "main.js": "/aleannlab/static/js/main.ddafed54.js",
     "static/media/mapStamp.svg": "/aleannlab/static/media/mapStamp.9fcc7c234f7feec21c27bec3190357a2.svg",
+    "static/media/star.svg": "/aleannlab/static/media/star.91defe406f155b577b6db1f31d0f4753.svg",
+    "static/media/Share.svg": "/aleannlab/static/media/Share.14f9ee50b9d134666b10f63dc344ff6b.svg",
     "index.html": "/aleannlab/index.html",
     "static/media/Rectangle 31.svg": "/aleannlab/static/media/Rectangle 31.7dfe64ee3e06e0c3fcc1227b459beb66.svg",
-    "main.85053a60.css.map": "/aleannlab/static/css/main.85053a60.css.map",
-    "main.c4fd5a72.js.map": "/aleannlab/static/js/main.c4fd5a72.js.map"
+    "main.f699ade9.css.map": "/aleannlab/static/css/main.f699ade9.css.map",
+    "main.ddafed54.js.map": "/aleannlab/static/js/main.ddafed54.js.map"
   },
   "entrypoints": [
-    "static/css/main.85053a60.css",
-    "static/js/main.c4fd5a72.js"
+    "static/css/main.f699ade9.css",
+    "static/js/main.ddafed54.js"
   ]
 }
