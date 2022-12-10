@@ -1,20 +1,22 @@
-.containerDetails{
-padding-top: 24px;
+.containerDetails {
+  padding-top: 24px;
   padding-right: 15px;
   padding-left: 15px;
-  @media screen and (min-width: 768px){
-padding-top: 56px;
+  @media screen and (min-width: 768px) {
+    padding-top: 56px;
     padding-left: 347px;
     padding-right: 315px;
   }
 }
-.headerContainer{
-  @media screen and (min-width: 768px){
+
+.headerContainer {
+  @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-between;
 
   }
 }
+
 .jobDetails {
   font-family: Proxima Nova;
   color: #3A4562;
@@ -25,53 +27,59 @@ padding-top: 56px;
   text-align: left;
   margin-bottom: 12px;
 }
-.lineMobile{
+
+.lineMobile {
   margin-bottom: 24px;
   color: #3A4562;
   height: 1px;
   opacity: 0.13;
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
-.lineDesctop{
-  @media screen and (max-width: 767px){
+
+.lineDesctop {
+  @media screen and (max-width: 767px) {
     display: none;
   }
   margin-bottom: 39px;
 }
-.shareContainer{
+
+.shareContainer {
   display: flex;
   align-items: center;
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 767px) {
     margin-bottom: 32px;
   }
 }
-.bookMarkDetail{
-  @media screen and (max-width: 767px){
+
+.bookMarkDetail {
+  @media screen and (max-width: 767px) {
     display: none;
   }
   margin-right: 16px;
 }
-.star{
+
+.star {
   height: 21px;
   width: 20px;
   stroke: #3A4562;
   stroke-width: 2px;
   margin-right: 12px;
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
-.share{
+
+.share {
   margin-right: 10px;
   font-family: Proxima Nova;
-color: rgba(56, 65, 93, 0.82);
+  color: rgba(56, 65, 93, 0.82);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4375;
   letter-spacing: -0.5px;
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     margin-right: 15px;
     font-family: 'Roboto';
     color: #3A4562;
@@ -79,15 +87,16 @@ color: rgba(56, 65, 93, 0.82);
     line-height: 1.33;
   }
 }
-.saveToMyList{
+
+.saveToMyList {
   font-family: Proxima Nova;
   color: rgba(56, 65, 93, 0.82);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4375;
   letter-spacing: -0.5px;
-    margin-right: 36px;
-  @media screen and (min-width: 768px){
+  margin-right: 36px;
+  @media screen and (min-width: 768px) {
     margin-right: 31px;
     font-family: Roboto;
     color: #3A4562;
@@ -97,4 +106,90 @@ color: rgba(56, 65, 93, 0.82);
     letter-spacing: -0.5625px;
     font-variation-settings: 'wdth' 100;
   }
+}
+.titleDivMobile{
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+.titleDivDesctop{
+  display: flex;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+.title {
+  font-family: Proxima Nova;
+  color: rgba(58, 69, 98, 1);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.75px;
+  margin-bottom: 5px;
+  @media screen and (min-width: 768px) {
+    width: 500px;
+    margin-right: 60px;
+  }
+
+}
+.btnApplyDesctop{
+  background-color: #384564;
+  color:rgba(255, 255, 255, 1);
+  padding: 18px 30px 18px 30px;
+  font-family: Proxima Nova;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.33;
+  border-radius: 8px;
+  border-style: none;
+  margin-bottom: 32px;
+  @media screen and (max-width: 767px){
+    display: none;
+  }
+}
+
+.postedSalaryDivMobile {
+  display: flex;
+  margin-bottom: 14px;
+}
+
+.posted {
+  font-family: Proxima Nova;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.923;
+  letter-spacing: 0.19px;
+  color: rgba(56, 65, 93, 0.6021);
+  margin-right: 115px;
+}
+.postedDesctop{
+  @media screen and (max-width: 767px){
+    display: none;
+  }
+  font-family: Roboto;
+  color:rgba(56, 65, 93, 0.356);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: -0.5625px;
+  font-variation-settings: 'wdth' 100;
+}
+
+.brutto {
+  font-family: Proxima Nova;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.33px;
+  letter-spacing: -0.5625px;
+  color: rgba(56, 65, 93, 0.82);
+  margin-bottom: 4px;
+}
+
+.salary {
+  font-family: Proxima Nova;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.625px;
+  color: rgba(58, 69, 98, 1);
 }
